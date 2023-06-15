@@ -1,0 +1,11 @@
+jax==0.3.0
+jaxlib==0.3.0
+flax==0.4.0
+evosax==0.0.4
+optax==0.1.1
+chex==0.1.0
+tensorflow-probability==0.16.0
+brax==0.0.11
+numpy==1.22.1
+gym
+wandb
