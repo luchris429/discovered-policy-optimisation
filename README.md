@@ -12,7 +12,7 @@ Lu, Chris, Jakub Kuba, Alistair Letcher, Luke Metz, Christian Schroeder de Witt,
 
 Due to the rapid development of JAX's ecosystem it can be difficult for users to precisely set up the environment. We *highly* recommend instead using the [PureJaxRL repository](https://github.com/luchris429/purejaxrl/tree/main) to perform related research. We plan to upload a clean re-implementation of this work there. This repository is for reproducing the original results in the paper.
 
-PureJaxRL is similar to this repository in that it contains end-to-end Jax-vectorised PPO implementations. However, it differs from this repository in many ways -- it uses newer libraries that did not exist at the time that the bulk of this research was performed. Notably, we *already* have an implementation of [DPO there](https://github.com/luchris429/purejaxrl/blob/main/purejaxrl/dpo_continuous_action.py). Notably, the underlying PPO implementations (and subsequent Brax environment versions) differ significantly, yet DPO still outperforms PPO.
+PureJaxRL is similar to this repository in that it contains end-to-end Jax-vectorised PPO implementations. However, it differs from this repository in many ways -- it uses newer libraries that did not exist at the time that the bulk of this research was performed. Notably, we *already* have an implementation of [DPO there](https://github.com/luchris429/purejaxrl/blob/main/purejaxrl/dpo_continuous_action.py). Interestingly, the underlying PPO implementations (and subsequent Brax environment versions) differ significantly, yet DPO still outperforms PPO.
 
 # Installation
 
